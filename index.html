@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Akbar Firdaus — Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <span class="logo">Akbar Dev</span>
+    <ul class="nav-links">
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+    <button id="toggleTheme" aria-label="Ganti Tema">🌙</button>
+  </nav>
+
+  <header id="beranda" class="hero">
+    <img src="foto.jpg" alt="Foto Akbar" class="foto-profil">
+    <div>
+      <h1>Muhammad Akbar Firdaus</h1>
+      <p>Mahasiswa Informatika</p>
+    </div>
+  </header>
+
+  <section id="skills" class="skills-section">
+    <h2>Keahlian</h2>
+    <div id="skill-container" class="skills"></div>
+    <br>
+    <div id="proyek-container"></div>
+  </section>
+
+
+
+  <section id="kontak" class="kontak">
+    <h2>Kontak</h2>
+    <form id="formKontak">
+      <input id="namaInput" type="text" placeholder="Masukkan nama Anda">
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <script type="module" src="script.js" defer></script>
+</body>
+
+</html>
